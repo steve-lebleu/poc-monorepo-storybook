@@ -29,11 +29,25 @@ poc-monorepo-storybook
 │           └── app
 │               └── page.tsx
 ├── packages
+│   ├── tools                     # Shared utilities and tools
+│   │   ├── package.json
+│   │   └── src
+│   │       └── index.ts
 │   └── ui
-│       └── components
+│       ├── components
+│       │   ├── package.json
+│       │   ├── .storybook       # Storybook configuration
+│       │   │   ├── main.ts
+│       │   │   └── preview.ts
+│       │   └── src
+│       │       ├── stories      # Component stories
+│       │       │   ├── Button.stories.tsx
+│       │       │   └── Introduction.mdx
+│       │       └── button.component.tsx
+│       └── hooks                # Shared React hooks
 │           ├── package.json
 │           └── src
-│               └── button.component.tsx
+│               └── index.ts
 ├── turbo.json
 ├── package.json
 ├── tsconfig.json
