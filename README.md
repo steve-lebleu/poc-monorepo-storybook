@@ -97,7 +97,7 @@ cd apps/my-app
 npm run start
 ```
 
-## Experience / Feedbacks
+## Feedbacks
 
 ### Monorepo
 
@@ -108,8 +108,8 @@ npm run start
 
 - Simple to setup and to use
 - Efficient to manage dependencies
-  - Worksapces allow to share components between applications
-  - Worksapces allow to manage dependencies
+  - Workspaces allow to share components between applications
+  - Workspaces allow to manage dependencies
 - Efficient to scale on the same stack using the same tools
   - Add new applications
   - Add new packages
@@ -133,8 +133,11 @@ npm run start
 
 ### Conclusion
 
-- Definitively, `turbo` and `npm/pnpm workspaces` are the right tools for the job considering the context
-- If you plan to **scale** and to **develop many applications on the same stack**, you should **consider this monorepo approach**
-- If you plan to **develop a single application**, you should **not use this monorepo approach** and just refer to a well organized project in a single repository
-- `Storybook` is a good tool to develop components in isolation
-- The pain / gain balance to use `Storybook` in the context of a project using `Joy UI` is less interesting, except if you plan to **extends more strongly** the `Joy UI` library
+`turbo` and `npm/pnpm workspaces` look like the right tools for the job considering the context.
+
+- If you plan to **scale** and to **develop many applications on the same stack**, you should **consider this monorepo approach**.
+- If you plan to **develop a single application**, you should **not use this monorepo approach** and just refer to a well organized project in a single repository.
+
+`Storybook` is a good tool to develop components in isolation.
+
+The pain / gain balance to use `Storybook` in the context of a project using `Joy UI` is less interesting, except if you plan to **extends more strongly** the `Joy UI` library.
